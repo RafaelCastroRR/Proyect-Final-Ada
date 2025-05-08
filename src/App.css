@@ -1,0 +1,50 @@
+/* Asegúrate de que #root ocupe toda la pantalla */
+#root {
+  min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+  display: flex;
+  flex-direction: column; /* Alineación en columna */
+  justify-content: flex-start; /* Alinea el contenido desde la parte superior */
+  padding: 0; /* Elimina el padding general del contenedor */
+  margin: 0; /* Asegura que no haya margen extra */
+  box-sizing: border-box; /* Incluye padding dentro del cálculo del ancho */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* O cualquier fuente que prefieras */
+  background-color: #f4f4f4; /* Fondo suave para el sitio */
+  height: 100%; /* Asegura que el body ocupe toda la altura */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Si hay otros estilos, añádelos aquí */
+
+/* Header ajustado */
+header {
+  background-color: #2c7a7b; /* Color de fondo del header */
+  padding: 1rem 2rem; /* Espaciado en el header */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Main ajustado */
+main {
+  flex: 1;
+  padding: 2rem;
+  background-color: white; /* Fondo blanco para el contenido principal */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 100%;
+}
+
+/* Footer ajustado */
+footer {
+  background-color: #e2e8f0;
+  padding: 1rem 2rem;
+  text-align: center;
+  width: 100%;
+}
