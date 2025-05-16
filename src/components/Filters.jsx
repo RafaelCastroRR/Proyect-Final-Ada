@@ -1,3 +1,4 @@
+import React from 'react';
 import { useContext, useState } from 'react';
 import { EventContext } from '../context/EventContext';
 import { Input, Select, Flex, Button } from '@chakra-ui/react';

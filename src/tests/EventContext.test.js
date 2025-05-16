@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { EventProvider, EventContext } from '../context/EventContext'; // ajusta la ruta si está en otro lugar
+import { EventProvider, EventContext } from '../context/EventContext'; 
 
 test('el estado inicial debe tener eventos y recordatorios vacíos', () => {
   let contextValue;
